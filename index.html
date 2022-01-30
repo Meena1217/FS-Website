@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive personal portfolio website design tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div class="user">
+            <img src="images/meena.jpg" alt="">
+            <h3 class="name">Meena Bonam</h3>
+            <p class="post">Student</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <h3>HI THERE !</h3>
+        <h1>I'M <span>Meena Bonam</span></h1>
+        <p> I am a hardworking and ambitious individual with a great passion for the Web Development.
+             I am currently in my second year of studying Btech at SVECW,Bhimavaram.
+              I have excellent communication skills, enabling me to effectively communicate with a wide range of people.
+             I can put into practice my knowledge and experience, ultimately benefiting the operations of the organisation that I work for.
+        </p>
+        <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about</span> me </h1>
+
+        <div class="row">
+
+            <div class="info">
+                <h1 style="color: white;" align=center>Iam Meena and Iam a student</h1>
+                <p style="color: white;" align=center>This is my Official portfolio website.
+                    Here people can see my details and work exiperiences of web development</p>
+                    <br><br>
+                <a href="#"><button class="btn"> Download CV <i class="fas fa-download"></i> </button></a>
+            </div>
+
+             
+    </section>
+
+    
+    <!-- skills section starts -->
+     <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills & experiences.</div>
+                    <p>Here you can see my skills on different sections.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>PHP</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MySQL</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Projects section start -->
+    <section class="projects" id="projects">
+        <div class="box"> 
+        <h1  align=center><span>Here you guys can see the projects done by me</span></h1>
+        <br>
+        <p>To see the Martial Arts game click the button given below.</p>
+        <br>
+        <a href="https://meena1217.github.io/FS-Game/" align=center>
+            <center><button style="background-color:palevioletred; border-radius: 25px; width:15%">Click me</button></center>
+        </a>
+        </div>
+    </section>
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> me </h1>
+
+        <div class="row">
+
+            <div class="content">
+
+                <h3 class="title">contact info</h3>
+
+                <div class="info">
+                    <h3> <i class="fas fa-envelope"></i> jahnavi2627@gmail.com </h3>
+                    <h3> <i class="fas fa-phone"></i> +123-456-7890 </h3>
+                    <h3> <i class="fas fa-phone"></i> +111-222-3333 </h3>
+                    <h3> <i class="fas fa-map-marker-alt"></i> AndhraPradesh,Palakol, india - 534260. </h3>
+                </div>
+
+            </div>
+
+            <form action="">
+
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="text" placeholder="project" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+
+    <!-- scroll top button  -->
+
+    <a href="#home" class="top">
+        <img src="images/scroll-top-img.png" alt="">
+    </a>
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
+
+
+
+     
+
+     
